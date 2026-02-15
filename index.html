@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Camille Lima | Dev</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <ul class="menu">
+            <li>
+                <a href="#inicio" class="menuLink">
+                    Início
+                </a>
+            </li>
+            <li>
+                <a href="#sobre" class="menuLink">
+                    Sobre
+                </a>
+            </li>
+            <li>
+                <a href="#projetos" class="menuLink">
+                    Projetos
+                </a>
+            </li>
+            <li>
+                <a href="#contatos" class="menuLink">
+                    Contato
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+
+    <main id="inicio" class="cabecalho">
+
+        <img src="./img/camille.jpg" alt="Foto de perfil" class="fotoCamille">
+        <h1>Camille Lima</h1>
+        <p class="text">Técnica em Desenvolvimento de Sistemas</p>
+
+
+
+    </main>
+
+    <section id="sobre" class="secao">
+        <h2 class="sobre-titulo">Sobre mim</h2>
+        <div class="sobre-caixa">
+            <p class="sobre-parag">Estudante de ADS no IFCE | Técnica em Desenvolvimento de Sistemas | Java, PHP,
+                Node.js</p>
+        </div>
+    </section>
+
+    <section id="projetos" class="projetos">
+        <h2 class="projetos-titulo"> Meus projetos</h2>
+        <div class="projetos-caixa">
+            <!-- card 1 -->
+            <div class="projetos-card">
+                <div class="caixa-infotext">
+                    <h3 class="info-projetos">MyContacts</h3>
+                </div>
+
+                <p class="parag-projetos">MyContacts é uma aplicação em Java, executada via console, que simula uma
+                    agenda de contatos simples e funcional. O sistema permite o cadastro e a busca de contatos,
+                    aplicando conceitos fundamentais da Programação Orientada a Objetos (POO), organização em pacotes e
+                    tratamento básico de exceções.</p>
+            </div>
+            <!-- card 2 -->
+            <div class="projetos-card">
+                <div class="caixa-infotext">
+                    <h3 class="info-projetos">Crud de Node.js</h3>
+                </div>
+
+                <p class="parag-projetos">API REST em Node.js desenvolvida para operações CRUD, com criação de servidor
+                    Express e integração com MySQL. As rotas foram testadas via Insomnia, permitindo as operações de
+                    forma estruturada. Projeto focado em backend, organização de rotas, models e conexão com banco de
+                    dados relacional.</p>
+            </div>
+            <!-- card 3 -->
+            <div class="projetos-card">
+                <div class="caixa-infotext">
+                    <h3 class="info-projetos">CadSys</h3>
+                </div>
+
+                <p class="parag-projetos">Sistema de cadastros web desenvolvido em PHP com MySQL, focado na aplicação
+                    prática das operações CRUD (Create, Read, Update e Delete).Este sistema permite o gerenciamento de
+                    registros por meio de uma interface web simples, intuitiva e responsiva.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contatos" class="contatos">
+        <h2 class="contatos-titulos">Contatos</h2>
+        <form class="formulario-contato" id="formulario">
+            <div class="grupo-form">
+                <input placeholder="Digite seu nome" class="campo-form">
+            </div>
+            <div class="grupo-form">
+                <textarea placeholder="Digite sua mensagem" class="campo-form">
+
+                </textarea>
+            </div>
+            <button type="submit" class="btn-form"> Enviar WhatsApp</button>
+        </form>
+    </section>
+
+</body>
+
+</html>
